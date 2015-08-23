@@ -1,0 +1,166 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body, html {
+height: 100%;
+}
+
+body {
+ background: black; 
+  box-shadow:inset 0 0 1.5em #111;
+}
+
+.guesses-left {
+    background: rgba(0, 0, 0, .7);
+    height: 70px;
+    margin-right:auto;
+    margin-left: auto;
+    width: 350px;
+    color:#FFFFFF;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+  padding-left: 15px;
+  padding-right: 15px;
+  
+
+  
+}
+
+/*
+button {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+*/
+
+/*
+form {
+ margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+*/
+
+#replay, #hint {
+
+  
+}
+
+.content {
+  
+  background: linear-gradient(#007591, #5AAFC7);
+/* background: linear-gradient(#32FF65, #0C4019);*/
+ height: 600px;
+  margin: 0 auto;
+   text-align: center;
+  width: 700px;
+
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 5em;
+  color: black;
+/*     text-shadow: rgba(0,0,0,.4) 0 1px 0;*/
+  
+}
+
+.top {
+background: linear-gradient( #FF4B56, #FF323E); 
+
+  width: 100%;
+ height: 400px;
+  padding-top: 5px;
+
+ 
+  
+}
+
+.bottom {
+
+    width: 100%;
+  height: 200px;
+ 
+}
+
+.vert-center{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+
+p {
+  font-size: 2em;
+}
+
+.layer {
+   position: absolute;
+   top: 0;  
+   width: 100%;
+   height: 600px;
+   box-shadow:inset 0 0 1.5em #111;
+  background-color: rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#number-input {
+width: 300px;
+  height: 30px;
+  text-align: center;
+  font-size: 1em;
+}
+
+#submit-button {
+  width: 100px; 
+  margin-top: 35px;
+  margin-bottom: 25px;
+  color: black;
+}
+
+#replay, #hint{
+  margin-top: 50px;
+  width: 125px;
+  
+
+  
+  
+}
+input {
+  margin-top: 50px;
+}
+
+
+
+.button { 
+   background: -webkit-linear-gradient(top, #f5f6f6, #dbdce2,#b8bac6, #dddfe3);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   padding: 10px 20px;
+   -webkit-border-radius: 17px;
+   -moz-border-radius: 17px;
+   border-radius: 12px;
+   color: black;
+   font-size: 16px;
+   font-family: Lato, Arial, Sans-Serif;
+   text-decoration: none;
+  vertical-align: middle;
+   }
+
+.button:hover {
+   color: #ccc;
+   }
+
+.button:active {
+
+   background: #1b435e;
+   }
